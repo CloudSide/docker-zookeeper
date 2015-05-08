@@ -7,11 +7,12 @@ docker build -t cloudmario/docker-zookeeper .
 
 ### use
 ```shell
-HOST_IP = 1.1.1.1
-HOST_IP_1 = 1.1.1.1
-HOST_IP_2 = 2.2.2.2
-HOST_IP_3 = 3.3.3.3
-HOST_IP_4 = 4.4.4.4
+HOST_IP=1.1.1.1
+HOST_IP_1=1.1.1.1
+HOST_IP_2=2.2.2.2
+HOST_IP_3=3.3.3.3
+HOST_IP_4=4.4.4.4
+SERVER_ID=1
 
 docker run -d \
 --net="host" \
