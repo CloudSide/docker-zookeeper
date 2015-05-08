@@ -7,6 +7,7 @@ RUN wget -q -O - http://apache.mirrors.pair.com/zookeeper/zookeeper-3.4.6/zookee
     && cp /opt/zookeeper/conf/zoo_sample.cfg /opt/zookeeper/conf/zoo.cfg \
     && mkdir -p /tmp/zookeeper
 
+ENV TZ "Asia/Shanghai"
 ENV JAVA_HOME /usr/lib/jvm/java-7-openjdk-amd64
 
 ADD ./run.sh /opt/run.sh
