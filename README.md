@@ -5,7 +5,7 @@
 docker build -t cloudmario/docker-zookeeper .
 ```
 
-### use
+### run
 ```shell
 HOST_IP=1.1.1.1
 HOST_IP_1=1.1.1.1
